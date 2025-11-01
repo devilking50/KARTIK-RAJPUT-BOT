@@ -64,14 +64,14 @@ function containsEmoji(text){ return /[\p{Emoji}]/u.test(text); }
 // Stylish AAHAN H3R3 signature
 function getSignature() {
   const signatures = [
-    "\n\n✨ 🅐🅐🅗🅐🅝 🅗3🅡3 ✨",
-    "\n\n🌟 🇦 🇦 🇭 🇦 🇳  🇭 3 🇷 3 🌟", 
-    "\n\n🔥 𝔸𝔸ℍ𝔸ℕ ℍ3ℝ3 🔥",
-    "\n\n💫 𝓐𝓐𝓗𝓐𝓝 𝓗3𝓡3 💫",
-    "\n\n🎯 𝔄𝔄𝔥𝔄𝔫 ℌ3ℜ3 🎯",
-    "\n\n⚡ ₳₳Ⱨ₳₦ Ⱨ3Ɽ3 ⚡",
-    "\n\n🚀 ᗩᗩᕼᗩᑎ ᕼ3ᖇ3 🚀",
-    "\n\n💖 ααнαη н3я3 💖"
+    "\n\n✨ 🅚🅐🅡🅣🅘🅚 🅗3🅡3 ✨",
+    "\n\n🌟 🄺 🄰 🅁 🅃 🄸 🄺  🇭 3 🇷 3 🌟", 
+    "\n\n🔥 𝕂𝔸ℝ𝕋𝕀𝕂 ℍ3ℝ3 🔥",
+    "\n\n💫 𝕶𝕬𝕽𝕿𝖀𝕶 𝓗3𝓡3 💫",
+    "\n\n🎯 𝔎𝔄ℜ𝔗𝔘𝔎 ℌ3ℜ3 🎯",
+    "\n\n⚡ K̶A̶R̶T̶I̶K̶ Ⱨ3Ɽ3 ⚡",
+    "\n\n🚀 KARTIK ᕼ3ᖇ3 🚀",
+    "\n\n💖 ƙαɾƚιƙ н3я3 💖"
   ];
   return pickRandom(signatures);
 }
@@ -139,7 +139,7 @@ async function setBotNickname(threadID) {
   if (!botAPI) return;
   
   try {
-    const nicknames = ["99H9N H3R3😎", "𝕬𝖆𝖍𝖆𝖓 𝕳3𝖗3🔥", "₳₳Ⱨ₳₦ Ⱨ3Ɽ3⚡", "ααнαη н3я3💫"];
+    const nicknames = ["K9RT|K H3R3😎", "𝔨𝔞𝔯𝔱𝔦𝔨 𝕳3𝖗3🔥", "k̶a̶r̶t̶i̶k̶ Ⱨ3Ɽ3⚡", "ƙαɾƚιƙ н3я3💫"];
     const nickname = pickRandom(nicknames);
     
     await botAPI.changeNickname(nickname, botAPI.getCurrentUserID(), threadID);
@@ -575,7 +575,7 @@ const audioFiles = {
 
 // Help command content - FIXED: Now shows to everyone
 const helpMessage = `
-🤖 *AAHAN H3R3 BOT COMMANDS* 🤖
+🤖 *K9RT|K H3R3 BOT COMMANDS* 🤖
 
 🛠️ *Basic Commands:*
 /start - Bot activate kare
